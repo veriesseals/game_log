@@ -1,0 +1,40 @@
+* {
+    outline: 1px dotted red;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+
+label{
+    color: whitesmoke;
+}
+
+.card-label {
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+
+h2{
+    font-weight: bold;
+}
+
+#button-space{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#inputImage{
+    width: 100%;
+}
+
+#copyRight{
+    color: whitesmoke;
+}

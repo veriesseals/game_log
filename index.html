@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gamer Log</title>
+</head>
+<body>
+    <header class="header-title">
+        <div class="container">
+            <div class="row">
+                <h1>Gamer and Favorite Game Log</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container form-section">
+            <div class="row">
+                <form action="#" class="form gamer-form">
+                    <!-- First Name, Last Name, favorite game, game studio img of favorite game -->
+                    <!-- Gamers First Name -->
+                    <section class="gamerInfo d-flex">
+                        <div class="input-group mb-3">
+                            <label for="fName"></label>
+                            <input type="text" class="form-control" id="fName" name="fName" value="" placeholder="Gamer's First Name" aria-label="Gamer's First Name" aria-describedby="basic-addon2">
+                            <span class="input-group-text">First Name</span>
+                        </div>
+
+                        <!-- Gamers Last Name -->
+                        <div class="input-group mb-3">
+                            <label for="lName"></label>
+                            <input type="text" class="form-control" id="lName" name="lName" value="" placeholder="Gamers's Last Name" aria-label="Gamer's Last Name" aria-describedby="basic-addon2">
+                            <span class="input-group-text">Last Name</span>
+                        </div>
+                    </section>
+
+                    <!-- Favoite Game and Studio Info -->
+                    <section class="gameInfo d-flex">
+                        <div class="input-group mb-3">
+                            <label for="favGame"></label>
+                            <input type="text" class="form-control" id="favGame" name="favGame" value="" placeholder="Gamer's Favoite Video Game" aria-label="Gamer's Favoite Game" aria-describedby="basic-addon2">
+                            <span class="input-group-text">Favorite Game</span>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label for="favGameStudio"></label>
+                            <input type="text" class="form-control" id="favGameStudio" name="favGameStudio" value="" placeholder="Gamer's Favoite Game Studio" aria-label="Gamer's Favoite Game" aria-describedby="basic-addon2">
+                            <span class="input-group-text">Favorite Game Studio</span>
+                        </div>
+                    </section>
+
+                    <section class="container">
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputImage">Enter Image URL:</label>
+                                <input type="url" id="inputImage" name="inputImage" value="" placeholder="Enter Game Image URL here!" required>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Button -->
+                    <div id="button-space">
+                        <input type="submit" value="Submit" class="btn btn-light" id="submitBtn"/>
+                    </div>
+
+                </form>
+
+                <!-- Card -->
+                <section class="container">
+                    <div class="row" id="gameCardDisplay">
+                        <!-- <div class="card mb-3">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="${this.show.inputImage}" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h2 class="card-title">${this.favChoice.inputImage + ' is my favorite game!'}</h2>
+                                <label for="fName card-label">Gamer First Name:</label>
+                                <p class="card-text">${this.favChoice.firstName}</p>
+                                <label for="lName" class="card-label">Gamer Last Name:</label>
+                                <p class="card-text">${this.favChoice.lastName}</p>
+                                <label for="favGameStudio card-label">Gamer Favorite Studio:</label>
+                                <p class="card-text">${this.favChoice.favGameStudio}</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <h5 id="copyRight">Favorite Game Log. Copyright 2022 &copy; Developed by Veries Seals III</h5>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
